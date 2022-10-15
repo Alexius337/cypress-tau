@@ -8,7 +8,7 @@ import {
     validateTodoCompletedState,
     validateToggleState,
     validateNumberOfTodosShown,
-  } from '../page-objects/todo-page'
+  } from '../page-objects/todo-page-functions'
   
   describe('todo actions', () => {
     beforeEach(() => {
