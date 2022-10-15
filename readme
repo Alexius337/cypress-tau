@@ -1,0 +1,16 @@
+"npm install" -> will install all required packages
+
+"npm test" -> will run all of the tests
+
+"npm run cypress" -> will open cypress in interactive mode
+
+Cypress CLI:
+
+"npx cypress run" -> defaults to headless mode, runs all test
+this saves videos of all of the cypress test runs
+
+"npx cypress run --help" 
+to get help on all available options
+
+"npx cypress run --spec cypress/e2e/todomvc-actions.cy.js"
+this will run only the specified test file 
